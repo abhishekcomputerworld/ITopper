@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".phyvideolist2">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/side_nav_bar"
+            android:elevation="6dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+
+        android:id="@+id/scrollView10"
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView66"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            app:cardBackgroundColor="@android:color/holo_purple"
+            app:cardCornerRadius="10dp"
+
+            app:layout_constraintBottom_toTopOf="@+id/cardView67"
+            app:layout_constraintDimensionRatio="1:0.6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.43"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageViewsrc"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHeight_percent="0.34
+
+
+"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.4
+"
+                    app:srcCompat="@drawable/ic_play__24dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView67"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="2dp"
+
+            app:cardElevation="8dp"
+            app:contentPadding="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView68"
+            app:layout_constraintDimensionRatio="1:0.17"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView66">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="0dp"
+
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="6dp"
+                    android:maxLines="1"
+                    android:text="@string/pc2v1"
+                    android:textColor="#070606"
+                    android:textSize="@dimen/a"
+                    android:textStyle="normal"
+                    android:typeface="normal"
+
+
+                    app:layout_constraintBottom_toTopOf="@+id/textView74"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_chainStyle="packed" />
+
+                <TextView
+                    android:id="@+id/textView74"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/pc2tv1"
+
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="14sp"
+                    android:typeface="normal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/textView1"
+                    app:layout_constraintTop_toBottomOf="@+id/textView1" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView68"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            app:cardElevation="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView67">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phch2le1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height"
+                    android:layout_margin="1dp"
+                    android:clickable="true"
+                    android:focusable="true"
+
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.555"
+                            app:layout_constraintStart_toEndOf="@+id/textView2"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView2"
+                            app:layout_constraintHorizontal_chainStyle="spread_inside"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.6"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="0dp"
+
+
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="11dp"
+                            android:maxLines="1"
+                            android:text="@string/pc2v1"
+                            android:textColor="#070606"
+                            android:textSize="@dimen/a"
+                            android:textStyle="normal"
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toTopOf="@+id/textView3"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView4"
+                            app:layout_constraintStart_toEndOf="@+id/imageView5"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="1.0" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="11dp"
+                            android:text="@string/pc2tv1"
+                            android:textSize="14sp"
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView2"
+                            app:layout_constraintHeight_percent="0.36"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/textView2"
+                            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phch2le2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height"
+                    android:layout_margin="1dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.555"
+                            app:layout_constraintStart_toEndOf="@+id/textView5"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView5"
+                            app:layout_constraintHorizontal_chainStyle="spread_inside"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.6"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="11dp"
+                            android:maxLines="1"
+                            android:text="@string/pc2v2"
+                            android:textColor="#070606"
+                            android:textSize="18sp"
+                            android:textStyle="normal"
+
+                            android:typeface="normal"
+                            app:layout_constraintBottom_toTopOf="@+id/textView4"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView7"
+                            app:layout_constraintStart_toEndOf="@+id/imageView6"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.00999999" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+
+                            android:layout_width="0dp"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="11dp"
+                            android:text="@string/pc2tv2"
+                            android:textSize="14sp"
+
+                            android:typeface="normal"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView5"
+                            app:layout_constraintHeight_percent="0.36"
+                            app:layout_constraintStart_toStartOf="@+id/textView5"
+                            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phch2le3"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView7"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.6"
+
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:padding="3dp"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.555"
+                            app:layout_constraintStart_toEndOf="@+id/textView7"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="11dp"
+                            android:maxLines="1"
+                            android:text="@string/pc2v3"
+                            android:textColor="#070606"
+                            android:textSize="@dimen/a"
+
+                            android:textStyle="normal"
+
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toTopOf="@+id/textView6"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView9"
+                            app:layout_constraintStart_toEndOf="@+id/imageView8"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+
+                            android:layout_width="0dp"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="11dp"
+                            android:text="@string/pc2tv3"
+                            android:textSize="14sp"
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView7"
+                            app:layout_constraintHeight_percent="0.36"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/textView7"
+                            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phch2le4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height"
+                    android:layout_margin="1dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView11"
+
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:padding="3dp"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.555"
+                            app:layout_constraintStart_toEndOf="@+id/textView9"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView10"
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView9"
+                            app:layout_constraintHorizontal_chainStyle="spread_inside"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.6"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
+
+                        <TextView
+                            android:id="@+id/textView9"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="11dp"
+                            android:maxLines="1"
+                            android:text="@string/pc2v4"
+                            android:textColor="#070606"
+                            android:textSize="18sp"
+
+
+                            android:textStyle="normal"
+
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toTopOf="@+id/textView8"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView11"
+                            app:layout_constraintStart_toEndOf="@+id/imageView10"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+
+                            android:layout_width="0dp"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="11dp"
+                            android:text="@string/pc2tv4"
+                            android:textSize="@dimen/b"
+
+                            android:typeface="normal"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView9"
+                            app:layout_constraintHeight_percent="0.36"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/textView9"
+                            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phch2le5"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height"
+                    android:layout_margin="1dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView10"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.6"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:padding="3dp"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.555"
+                            app:layout_constraintStart_toEndOf="@+id/textView10"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="11dp"
+                            android:fontFamily="sans-serif"
+                            android:maxLines="1"
+                            android:text="@string/pc2v5"
+                            android:textColor="#070606"
+                            android:textSize="@dimen/a"
+
+
+                            android:textStyle="normal"
+
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toTopOf="@+id/textView11"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView13"
+                            app:layout_constraintStart_toEndOf="@+id/imageView12"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+
+                            android:layout_width="0dp"
+
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginBottom="11dp"
+                            android:text="@string/pc2tv5"
+                            android:textSize="14sp"
+                            android:typeface="normal"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView10"
+                            app:layout_constraintHeight_percent="0.36"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/textView10"
+                            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phch2le6"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height"
+                    android:layout_margin="1dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView12"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.6"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:padding="3dp"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.555"
+                            app:layout_constraintStart_toEndOf="@+id/textView12"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="11dp"
+                            android:maxLines="1"
+                            android:text="@string/pc2v6"
+                            android:textColor="#070606"
+                            android:textSize="18sp"
+
+
+                            android:textStyle="normal"
+
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toTopOf="@+id/textView13"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView15"
+                            app:layout_constraintStart_toEndOf="@+id/imageView14"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView13"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/pc2tv6"
+                            android:textSize="17sp"
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView12"
+                            app:layout_constraintHeight_percent="0.36"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/textView12"
+                            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phch2le7"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height"
+                    android:layout_margin="1dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView16"
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView14"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.6"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView17"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:padding="3dp"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/textView14"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="11dp"
+                            android:maxLines="1"
+                            android:text="@string/pc2v7"
+                            android:textColor="#070606"
+                            android:textSize="@dimen/a"
+
+
+                            android:textStyle="normal"
+
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toTopOf="@+id/textView15"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView17"
+                            app:layout_constraintStart_toEndOf="@+id/imageView16"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView15"
+
+                            android:layout_width="0dp"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="11dp"
+                            android:text="@string/pc2tv7"
+                            android:textSize="14sp"
+                            android:typeface="normal"
+
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView14"
+                            app:layout_constraintHeight_percent="0.36"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/textView14"
+                            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phch2le8"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_margin="1dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView18"
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView16"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.6"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView19"
+
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:padding="3dp"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.555"
+                            app:layout_constraintStart_toEndOf="@+id/textView16"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+                        <TextView
+                            android:id="@+id/textView16"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="11dp"
+                            android:maxLines="1"
+                            android:text="@string/pc2v8"
+                            android:textColor="#070606"
+                            android:textSize="@dimen/a"
+
+                            android:textStyle="normal"
+
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toTopOf="@+id/textView17"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView19"
+                            app:layout_constraintStart_toEndOf="@+id/imageView18"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+
+                            android:layout_width="0dp"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="11dp"
+                            android:text="@string/pc2tv8"
+                            android:textSize="@dimen/b"
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView16"
+                            app:layout_constraintHeight_percent="0.36"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/textView16"
+                            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phch2le9"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height"
+                    android:layout_margin="1dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView20"
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:padding="3dp"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.555"
+                            app:layout_constraintStart_toEndOf="@+id/textView18"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView21"
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView18"
+                            app:layout_constraintHorizontal_chainStyle="spread_inside"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.6"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
+
+                        <TextView
+                            android:id="@+id/textView18"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="11dp"
+                            android:maxLines="1"
+                            android:text="@string/pc2v9"
+                            android:textColor="#070606"
+                            android:textSize="18sp"
+                            android:textStyle="normal"
+
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toTopOf="@+id/textView19"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView20"
+                            app:layout_constraintStart_toEndOf="@+id/imageView21"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView19"
+
+                            android:layout_width="0dp"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="11dp"
+                            android:text="@string/pc2tv9"
+                            android:textSize="14sp"
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView18"
+                            app:layout_constraintHeight_percent="0.36"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/textView18"
+                            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phch2le10"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height"
+                    android:layout_margin="1dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView22"
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView20"
+                            app:layout_constraintHorizontal_chainStyle="packed"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.6"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView23"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:padding="3dp"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/textView20"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+                        <TextView
+                            android:id="@+id/textView20"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="11dp"
+                            android:maxLines="1"
+                            android:text="@string/pc2v10"
+                            android:textColor="#070606"
+
+                            android:textSize="18sp"
+
+                            android:textStyle="normal"
+
+                            android:typeface="normal"
+                            app:layout_constraintBottom_toTopOf="@+id/textView21"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView23"
+                            app:layout_constraintStart_toEndOf="@+id/imageView22"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView21"
+
+                            android:layout_width="0dp"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="11dp"
+                            android:text="@string/pc2tv10"
+                            android:textSize="14sp"
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView20"
+                            app:layout_constraintHeight_percent="0.36"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/textView20"
+                            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phch2le11"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height"
+                    android:layout_margin="1dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView24"
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView22"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.6"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView25"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:padding="3dp"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/textView22"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+                        <TextView
+                            android:id="@+id/textView22"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="11dp"
+                            android:maxLines="1"
+                            android:text="@string/pc2v11"
+                            android:textColor="#070606"
+                            android:textSize="18sp"
+                            android:textStyle="normal"
+
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toTopOf="@+id/textView23"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView25"
+                            app:layout_constraintStart_toEndOf="@+id/imageView24"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView23"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginBottom="11dp"
+
+
+                            android:text="@string/pc2tv11"
+                            android:textSize="14sp"
+                            android:typeface="normal"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView22"
+                            app:layout_constraintHeight_percent="0.36"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/textView22"
+                            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phch2le12"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height"
+                    android:layout_margin="1dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView26"
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView24"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.6"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView27"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:padding="3dp"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/textView24"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+                        <TextView
+                            android:id="@+id/textView24"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="11dp"
+                            android:maxLines="1"
+                            android:text="@string/pc2v12"
+                            android:textColor="#070606"
+                            android:textSize="18sp"
+                            android:textStyle="normal"
+
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toTopOf="@+id/textView25"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView27"
+                            app:layout_constraintStart_toEndOf="@+id/imageView26"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView25"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="11dp"
+                            android:text="@string/pc2tv12"
+                            android:textSize="14sp"
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView24"
+                            app:layout_constraintHeight_percent="0.36"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/textView24"
+                            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phch2le13"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height"
+                    android:layout_margin="1dp"
+
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView28"
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView26"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.6"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView29"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/textView26"
+                            app:layout_constraintTop_toTopOf="parent"
+
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+                        <TextView
+                            android:id="@+id/textView26"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="11dp"
+                            android:maxLines="1"
+                            android:text="@string/pc2v13"
+                            android:textColor="#070606"
+                            android:textSize="18sp"
+                            android:textStyle="normal"
+
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toTopOf="@+id/textView27"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView29"
+                            app:layout_constraintStart_toEndOf="@+id/imageView28"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView27"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="11dp"
+                            android:text="@string/pc2tv13"
+                            android:textSize="14sp"
+
+                            android:typeface="normal"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView26"
+                            app:layout_constraintHeight_percent="0.36"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/textView26"
+                            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phch2le14"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height"
+                    android:layout_margin="1dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView30"
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView28"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.6"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView31"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/textView28"
+                            app:layout_constraintTop_toTopOf="parent"
+
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+                        <TextView
+                            android:id="@+id/textView28"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="11dp"
+                            android:maxLines="1"
+                            android:text="@string/pc2v14"
+                            android:textColor="#070606"
+                            android:textSize="18sp"
+
+
+                            android:textStyle="normal"
+
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toTopOf="@+id/textView29"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView31"
+                            app:layout_constraintStart_toEndOf="@+id/imageView30"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView29"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="11dp"
+                            android:text="@string/pc2tv14"
+                            android:textSize="14sp"
+
+                            android:typeface="normal"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView28"
+                            app:layout_constraintHeight_percent="0.36"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/textView28"
+                            app:layout_constraintTop_toBottomOf="@+id/textView28" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phch2le15"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height"
+                    android:layout_margin="1dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView32"
+
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView30"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.6"
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView33"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:padding="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/textView30"
+                            app:layout_constraintTop_toTopOf="parent"
+
+                            app:layout_constraintWidth_percent="0.13"
+                            app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+                        <TextView
+                            android:id="@+id/textView30"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="11dp"
+                            android:maxLines="1"
+                            android:text="@string/pc2v15"
+                            android:textColor="#070606"
+                            android:textSize="18sp"
+                            android:textStyle="normal"
+
+                            android:typeface="normal"
+
+                            app:layout_constraintBottom_toTopOf="@+id/textView31"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView33"
+                            app:layout_constraintStart_toEndOf="@+id/imageView32"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView31"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="11dp"
+                            android:text="@string/pc2tv15"
+                            android:textSize="14sp"
+
+                            android:typeface="normal"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView30"
+                            app:layout_constraintHeight_percent="0.36"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/textView30"
+                            app:layout_constraintTop_toBottomOf="@+id/textView30" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

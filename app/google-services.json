@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1060784270203",
+    "project_id": "itopper",
+    "storage_bucket": "itopper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060784270203:android:58274e16020f0d2e88ebde",
+        "android_client_info": {
+          "package_name": "com.cbse.jeemain.itopper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060784270203-rqre0o72fm9gj6d3oln1mgnmqrgcsa4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7OtUmoMSWfH4WpiISn0RFFmv0A5-jN2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060784270203-rqre0o72fm9gj6d3oln1mgnmqrgcsa4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

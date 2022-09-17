@@ -1,0 +1,1180 @@
+<resources>
+    <string name="app_name">ITopper</string>
+    <string name="title_activity_navigation">navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">abhishekpandey817827@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+
+    <string name="title_activity_maths">maths</string>
+    <string name="myprefrence">"com.abc.com.MyPref"</string>
+    <string name="myprefkey">"com.abc.com.MyPrefKey"</string>
+    <string name="phy">Physics</string>
+    <string name="che">Chemistry</string>
+    <string name="mat">Maths</string>
+    <string name="jeem">Jee Mains</string>
+    <string name="jeea">JeeAdvanced</string>
+    <string name="kvpy">kVPY</string>
+    <string name="video">Video</string>
+    <string name="note">Notes</string>
+    <string name="book">Books</string>
+    <string name="nes">NCERT Exercise Solution</string>
+    <string name="nees">NCERT Examler Solution</string>
+    <string name="ciq">CBSE Important Questions</string>
+    <string name="ss">Solve Samplepaper</string>
+    <string name="uns">UnSolve Samplepaper</string>
+    <string name="k1"> KVPY Sylllabus</string>
+    <string name="k2">KVPY-2017-Sample Paper  </string>
+    <string name="k3">KVPY-2017-Sample Paper </string>
+    <string name="k4"> KVPY-2016-Sample Paper </string>
+    <string name="k5"> KVPY-2016-Answer_Keys</string>
+    <string name="k6">KVPY-2016-Sample Paper  </string>
+    <string name="k7"> KVPY-2016-Sample Paper </string>
+    <string name="k8"> KVPY-2015-Sample Paper </string>
+    <string name="k9"> KVPY-2014-Sample Paper </string>
+    <string name="k10">KVPY-2013-Sample Paper  </string>
+    <string name="k11">KVPY-2012-Sample Paper  </string>
+    <string name="k12"> KVPY-2011-Sample Paper </string>
+
+
+    <string name="kk2"> Stream-SB-SX</string>
+    <string name="kk3">Stream-SB-SX ,5 Novem.. </string>
+    <string name="kk4"> Stream-SB-SX ,19 Novem..</string>
+    <string name="kk5">Stream-SB </string>
+    <string name="kk6"> Stream-SX</string>
+
+    <string name="n1">NSTSE-SamplesPapers</string>
+    <string name="n2">  QuestionPapers 2012</string>
+    <string name="n3"> NSTSE-SamplesPapers</string>
+    <string name="n4">Solutions 2012 </string>
+
+    <string name="n5"> NSTSE-2011</string>
+    <string name="n6"> Solved SamplesPapers</string>
+    <string name="n7">NSTSE-2010 </string>
+    <string name="n8">Solved SamplesPapers </string>
+    <string name="n9">NSTSE-2009 </string>
+
+    <string name="n10">Solved SamplesPapers </string>
+
+
+    <string name="j1"> JEE Main 2018 Paper</string>
+    <string name="j2">JEE Main 2017 Paper </string>
+    <string name="j3"> JEE Main 2016 Paper</string>
+    <string name="j4"> JEE Main 2015 Paper</string>
+    <string name="j5">JEE Main 2014 Paper </string>
+
+    <string name="jj1">Set-A with Soution</string>
+    <string name="jj2">Set-B with Soution</string>
+    <string name="jj3"> Set-C with Soution</string>
+    <string name="jj4"> Set-D with Soution</string>
+
+
+    <string name="ja1">JEE Advance 2017 Paper1 </string>
+    <string name="ja2">JEE Advance 2016 Paper1  </string>
+
+    <string name="ja3">JEE Advance 2015 Paper1  </string>
+
+    <string name="ja11">JEE Advance 2014 Paper1  </string>
+
+    <string name="ja4">JEE Advance 2013 Paper1  </string>
+    <string name="ja5">JEE Advance 2012 Paper1  </string>
+
+    <string name="ja6">JEE Advance 2017 Paper2 </string>
+    <string name="ja7">JEE Advance 2016 Paper2  </string>
+
+    <string name="ja8">JEE Advance 2015 Paper2  </string>
+    <string name="ja12">JEE Advance 2014 Paper2  </string>
+    <string name="ja9">JEE Advance 2013 Paper2  </string>
+    <string name="ja10">JEE Advance 2012 Paper2  </string>
+
+    <string name="jja1">  Physics  Paper1</string>
+    <string name="jja2">Chemistry Paper1 </string>
+    <string name="jja3">  Maths  Paper1</string>
+
+    <string name="jja4">  Physics  Paper2</string>
+    <string name="jja5">Chemistry Paper2 </string>
+    <string name="jja6">  Maths  Paper2</string>
+    <string name="notes">  Revision Notes</string>
+    <string name="books"> NCERT books</string>
+
+    <string name="imque">Important Questions</string>
+
+    <string name="a1">Chapter 1  </string>
+    <string name="a2">Chapter 2  </string>
+    <string name="a3">Chapter 3  </string>
+    <string name="a4">Chapter 4  </string>
+    <string name="a5">Chapter 5  </string>
+    <string name="a6">Chapter 6  </string>
+    <string name="a7">Chapter 7  </string>
+    <string name="a8">Chapter 8  </string>
+    <string name="a9">Chapter 9  </string>
+    <string name="a10">Chapter 10  </string>
+    <string name="a11">Chapter 11 </string>
+    <string name="a12">Chapter 12 </string>
+    <string name="a13">Chapter 13 </string>
+    <string name="a14">Chapter 14 </string>
+    <string name="a15">Chapter 15 </string>
+    <string name="a16">Chapter 16 </string>
+    <string name="a17">Chemistry Part2</string>
+    <string name="a18">Chemistry Part1</string>
+    <string name="ap16">Physics Part2</string>
+    <string name="ap17">Physics Part1</string>
+    <string name="am14">Maths Part2</string>
+    <string name="am15">Maths Part1</string>
+    <string name="a2a3">Chapter 2 and 3</string>
+    <string name="a1a2">Chapter 1 and 2</string>
+    <string name="a4a5">Chapter 4 and 5</string>
+    <string name="a6a7">Chapter 6 and 7</string>
+    <string name="a9a10">Chapter 9 and 10</string>
+    <string name="a12a13">Chapter 12 and 13</string>
+
+    <string name="p1">Electric Charges and Fields   </string>
+    <string name="p2">Electrostatic Potential and C.</string>
+    <string name="p3">Current Electricity           </string>
+    <string name="p4">Moving Charges and Magnetism  </string>
+    <string name="p5">Magnetism And Matter          </string>
+    <string name="p6">Electromagnetic Induction     </string>
+    <string name="p7">Alternating Current           </string>
+    <string name="p8">Electromagnetic Waves </string>
+    <string name="p9">Ray Optics and Optical Instruments  </string>
+    <string name="p10">Wave Optics </string>
+    <string name="p11">Dual Nature of Radiation and Matter </string>
+    <string name="p12">Atoms  </string>
+    <string name="p13">Nuclei  </string>
+    <string name="p14">Semiconductor Electronic: Material.Devices And Simple</string>
+    Circuits
+    <string name="p15">Communication Systems</string>
+    <string name="p16">PhysicsII/Answers</string>
+    <string name="p17">PhysicsI/Answers</string>
+
+
+    <string name="p1p2">Electrostatics</string>
+    <string name="p4p5">Magnetic effects of current and magnetism</string>
+    <string name="p6p7">Electromagnetic Induction and Alternating Current </string>
+    <string name="p9p10">Optics</string>
+    <string name="p12p13">Atoms and Nuclei </string>
+    <string name="p14p">Electronic Devicess</string>
+
+    <string name="c1">The Solid State</string>
+    <string name="c2">Solutions</string>
+    <string name="c3">Electrochemistry</string>
+    <string name="c4">Chemical Kinetics</string>
+    <string name="c5">Surface Chemistry</string>
+    <string name="c6">General Principles Processes of Isolation of Elements</string>
+    <string name="c7">The p-Block Elements</string>
+    <string name="c8"> The d and f Block Elements</string>
+    <string name="c9">Coordination Compounds</string>
+    <string name="c10">Haloalkanes and Haloarenes</string>
+    <string name="c11">Alcohols, Phenols and Ethers</string>
+    <string name="c12">Aldehydes, Ketones , Carboxylic Acids</string>
+
+    <string name="c13">Amines</string>
+    <string name="c14">Biomolecules</string>
+    <string name="c15">Polymers</string>
+    <string name="c16">Chemistry in Everyday life</string>
+    <string name="c17">ChemistryII/Answers</string>
+    <string name="c18">ChemistryI/Answers</string>
+
+    <string name="m1">Relations and Functions</string>
+    <string name="m2">Inverse Trigonometric Functions</string>
+    <string name="m3">Matrices          </string>
+    <string name="m4">Determinants</string>
+    <string name="m5">Continuity and Differentiability</string>
+    <string name="m6">Application of Derivatives</string>
+    <string name="m7">Integrals Revision Notes</string>
+    <string name="m8">Application of Integrals</string>
+    <string name="m9">Differential Equations</string>
+    <string name="m10">Vector Algebra</string>
+    <string name="m11">Three Dimensional Geometry</string>
+    <string name="m12">Linear Programming</string>
+    <string name="m13">Probability </string>
+    <string name="m14">MathsII/Answers</string>
+    <string name="m15">MathsI/Answers</string>
+    <string name="m2m3">Matrices and Determinants </string>
+
+    // CBSE Sample Question Papers
+    <string name="sss"> CBSE  Sample Papers</string>
+    <string name="ssss"> CBSE Sample Papers</string>
+    <string name="s1"> Sample Question Paper 1</string>
+    <string name="s2">Sample Question Paper 2</string>
+    <string name="s3">  Sample Question Paper 3</string>
+    <string name="s4">  Sample Question Paper 4</string>
+    <string name="s5">  Sample Question Paper 5</string>
+    <string name="s6">  Sample Question Paper 6</string>
+    <string name="s7"> Sample Question Paper 7</string>
+    <string name="s8">  Sample Question Paper 8</string>
+    <string name="s9">  Sample Question Paper 9</string>
+    <string name="s10">  Sample Question Paper 10</string>
+
+    <string name="es">  NCERT Exemplar Problems with Solutions</string>
+    <string name="ess"> NCERT Exemplar Problems with Solutions</string>
+
+    <string name="pv1">  16 Video</string>
+    <string name="pv2">  15 Video</string>
+    <string name="pv3">  21 Video</string>
+    <string name="pv4">  16 Video</string>
+    <string name="pv5">  8 video</string>
+    <string name="pv6">  9 Video</string>
+    <string name="pv7">  12 Video</string>
+    <string name="pv8">  4 Video</string>
+    <string name="pv9">  17 Video</string>
+    <string name="pv10">  14 Video</string>
+    <string name="pv11">  4 Video</string>
+    <string name="pv12">  3 Video</string>
+    <string name="pv13">  5 Video</string>
+    <string name="pv14">  16 Video</string>
+    <string name="pv15">  7 Video</string>
+
+    <string name="cv1">  7 Video</string>
+    <string name="cv2">  6 Video</string>
+    <string name="cv3">  8 Video</string>
+    <string name="cv4">  5 Video</string>
+    <string name="cv5">  7 Video</string>
+    <string name="cv6">  7 Video</string>
+    <string name="cv7">  13 Video</string>
+    <string name="cv8">  6 Video</string>
+    <string name="cv9">  7 Video</string>
+    <string name="cv10">  6 Video</string>
+    <string name="cv11">  7 Video</string>
+    <string name="cv12">  9 Video</string>
+    <string name="cv13">  6 Video</string>
+    <string name="cv14">  5 Video</string>
+    <string name="cv15">  3 Video</string>
+
+    <string name="mv1">  8 Video</string>
+    <string name="mv2">  4 Video</string>
+    <string name="mv3">  7 Video</string>
+    <string name="mv4">  7 Video</string>
+    <string name="mv5">  16 Video</string>
+    <string name="mv6">  12 Video</string>
+    <string name="mv7">  16 Video</string>
+    <string name="mv8">  3 Video</string>
+    <string name="mv9">  7 Video</string>
+    <string name="mv10">  6 Video</string>
+    <string name="mv11">  5 Video</string>
+    <string name="mv12">  4 Video</string>
+    <string name="mv13">  10 Video</string>
+
+
+    // phy chapter videos
+    //1
+    <string name="pc1v1">Electric charge part-1 </string>
+    <string name="pc1v2"> Electric charge part-2 </string>
+    <string name="pc1v3"> Coulumbs Law </string>
+    <string name="pc1v4">  Numerical Coulumbs Law -1 </string>
+    <string name="pc1v5">  Numerical coulombs law part-2</string>
+    <string name="pc1v6"> Electric field Intro  </string>
+    <string name="pc1v7"> Electric Field lines  </string>
+    <string name="pc1v8"> Electric dipole  </string>
+    <string name="pc1v9">  Dipole-2 </string>
+    <string name="pc1v10"> Electric field due to line charge</string>
+    <string name="pc1v11">   Electric flux -1 </string>
+    <string name="pc1v12">  Gausss Law </string>
+    <string name="pc1v13"> Gauss theorem applications-1  </string>
+    <string name="pc1v14">  Electric field due to sheet of charge </string>
+    <string name="pc1v15"> Electric field due to shell </string>
+    <string name="pc1v16"> Electric field Exercise  </string>
+
+    <string name="pc1tv1">1:10:05  </string>
+    <string name="pc1tv2">1:06:18  </string>
+    <string name="pc1tv3">1:13:34 </string>
+    <string name="pc1tv4">1:29:21  </string>
+    <string name="pc1tv5"> 1:27:20 </string>
+    <string name="pc1tv6">52:39  </string>
+    <string name="pc1tv7"> 54:33 </string>
+    <string name="pc1tv8">  1:11:52</string>
+    <string name="pc1tv9"> 1:04:48 </string>
+    <string name="pc1tv10">54:57 </string>
+    <string name="pc1tv11"> 54:32 </string>
+    <string name="pc1tv12"> 1:04:28 </string>
+    <string name="pc1tv13"> 40:41 </string>
+    <string name="pc1tv14"> 36:06 </string>
+    <string name="pc1tv15"> 1:11:04</string>
+    <string name="pc1tv16">37:08  </string>
+    //2
+    <string name="pc2v1">Potential, Introduction </string>
+    <string name="pc2v2">Electrical Potential-2,</string>
+    <string name="pc2v3">Electric potential-3,</string>
+    <string name="pc2v4">Potential due to shell</string>
+    <string name="pc2v5"> Electric potential energy</string>
+    <string name="pc2v6">Capacitor Intro </string>
+    <string name="pc2v7"> Parallel plate capacitor</string>
+    <string name="pc2v8">Dielectrics </string>
+    <string name="pc2v9"> Energy stored in capacitor</string>
+    <string name="pc2v10"> Capacitor in parallel (2016)Pradeep Kshetrapal </string>
+    <string name="pc2v11">Loss of energy</string>
+    <string name="pc2v12"> Numerical on capacitor-1</string>
+    <string name="pc2v13">Potential numericals-2</string>
+    <string name="pc2v14">Numerical on potential and capacitance-3</string>
+    <string name="pc2v15">Numerical on potential and capacitance-4</string>
+
+
+    <string name="pc2tv1">  51:29</string>
+    <string name="pc2tv2"> 40:32</string>
+    <string name="pc2tv3">50:11</string>
+    <string name="pc2tv4">41:46</string>
+    <string name="pc2tv5">52:45</string>
+    <string name="pc2tv6">56:54</string>
+    <string name="pc2tv7">47:42</string>
+    <string name="pc2tv8">41:11</string>
+    <string name="pc2tv9">28:42</string>
+    <string name="pc2tv10">43:43</string>
+    <string name="pc2tv11">47:00</string>
+    <string name="pc2tv12">44:47</string>
+    <string name="pc2tv13"> 46:08</string>
+    <string name="pc2tv14">51:27</string>
+    <string name="pc2tv15"> 49:43</string>
+    //3
+
+    <string name="pc3v1">Current Electricity</string>
+    <string name="pc3v2"> Drift under Electric field </string>
+    <string name="pc3v3"> Electric current and drift velocity</string>
+    <string name="pc3v4"> Ohms law introduction</string>
+    <string name="pc3v5">Resistivity</string>
+    <string name="pc3v6">Effect of temperature on resistivity</string>
+    <string name="pc3v7"> Carbon resistors</string>
+    <string name="pc3v8">Series and parallel combination of resistors</string>
+    <string name="pc3v9">Mixed combination of resistors</string>
+    <string name="pc3v10">Kirchoffs law</string>
+    <string name="pc3v11">Potentiometer introductionl</string>
+    <string name="pc3v12">Wheatstone bridge</string>
+    <string name="pc3v13">Cell Introduction</string>
+    <string name="pc3v14">EMF introduction</string>
+    <string name="pc3v15"> Cells Combination-1</string>
+    <string name="pc3v16">Cells, mixed combination</string>
+    <string name="pc3v17">Potentiometer introduction</string>
+    <string name="pc3v18"> Application of potentiometer </string>
+    <string name="pc3v19">  Current Numerical(</string>
+    <string name="pc3v20"> NCERT Numerical</string>
+    <string name="pc3v21">  NCERT Numerical</string>
+
+
+    <string name="pc3tv1">    58:25</string>
+    <string name="pc3tv2">  34:31</string>
+    <string name="pc3tv3">29:20</string>
+    <string name="pc3tv4"> 44:06</string>
+    <string name="pc3tv5">56:28</string>
+    <string name="pc3tv6">  41:16</string>
+    <string name="pc3tv7">34:14</string>
+    <string name="pc3tv8">37:09</string>
+    <string name="pc3tv9">43:57</string>
+    <string name="pc3tv10">58:35</string>
+    <string name="pc3tv11">46:06</string>
+    <string name="pc3tv12">1:00:06</string>
+    <string name="pc3tv13">54:32</string>
+    <string name="pc3tv14">39:06 </string>
+    <string name="pc3tv15">36:52</string>
+    <string name="pc3tv16">28:41</string>
+    <string name="pc3tv17">39:47</string>
+    <string name="pc3tv18">26:34</string>
+    <string name="pc3tv19">39:04</string>
+    <string name="pc3tv20">39:26</string>
+    <string name="pc3tv21">46:17</string>
+    //4
+    <string name="pc4v1">Magnetic field and force, introduction</string>
+    <string name="pc4v2">Magnetic Force on moving charge</string>
+    <string name="pc4v3">Motion of charge in electric field </string>
+    <string name="pc4v4">Motion of charge in magnetic field </string>
+    <string name="pc4v5">Cyclotron Part-1</string>
+    <string name="pc4v6">Cyclotron Part-2 </string>
+    <string name="pc4v7"> Bio-Sawarts law introduction </string>
+    <string name="pc4v8">Bio-Sawart law application </string>
+    <string name="pc4v9">Magnetic field due to straight current carrying conductor </string>
+    <string name="pc4v10">Magnetic field due to circular coil </string>
+    <string name="pc4v11">Amperes circuital law part-1 </string>
+    <string name="pc4v12"> Application of Amperes circuital law </string>
+    <string name="pc4v13"> Force between two current carrying conductor</string>
+    <string name="pc4v14"> Torque on current carrying coil kept in magnetic field </string>
+    <string name="pc4v15">Galvanometer </string>
+    <string name="pc4v16">Magnetism by electron </string>
+
+
+    <string name="pc4tv1">41:17</string>
+    <string name="pc4tv2">39:11</string>
+    <string name="pc4tv3">45:19</string>
+    <string name="pc4tv4">55:45</string>
+    <string name="pc4tv5">49:05 </string>
+    <string name="pc4tv6">25:38</string>
+    <string name="pc4tv7">32:26</string>
+    <string name="pc4tv8">43:26</string>
+    <string name="pc4tv9">36:58</string>
+    <string name="pc4tv10">46:57</string>
+    <string name="pc4tv11">45:39</string>
+    <string name="pc4tv12">49:26</string>
+    <string name="pc4tv13">33:25</string>
+    <string name="pc4tv14">34:09</string>
+    <string name="pc4tv15">53:56</string>
+    <string name="pc4tv16">41:07</string>
+    //5
+    <string name="pc5v1">Magnetism in matter- Introduction</string>
+    <string name="pc5v2">Solenoid as bar magnet</string>
+    <string name="pc5v3"> Magnetism of earth-1 </string>
+    <string name="pc5v4">Magnetism of earth-2</string>
+    <string name="pc5v5"> Material magnetism characteristic</string>
+    <string name="pc5v6">Dia and Para magnetic material </string>
+    <string name="pc5v7">Ferromagnetism</string>
+    <string name="pc5v8"> Hysteresis loss</string>
+
+    <string name="pc5tv1">57:21</string>
+    <string name="pc5tv2">45:58</string>
+    <string name="pc5tv3">46:20</string>
+    <string name="pc5tv4">36:41</string>
+    <string name="pc5tv5">54:42</string>
+    <string name="pc5tv6">53:17</string>
+    <string name="pc5tv7">37:22</string>
+    <string name="pc5tv8">44:35</string>
+    //6
+    <string name="pc6v1"> Electromagnetic induction introduction</string>
+    <string name="pc6v2">E.M.I. Faradays law-2</string>
+    <string name="pc6v3">Motional e.m.f.</string>
+    <string name="pc6v4"> Eddy current</string>
+    <string name="pc6v5">Self Inductance-1 </string>
+    <string name="pc6v6">Self inductance - 2</string>
+    <string name="pc6v7"> Mutual inductance</string>
+    <string name="pc6v8"> EMI in rotating coil</string>
+    <string name="pc6v9">EMI Numerical </string>
+
+    <string name="pc6tv1">49:53</string>
+    <string name="pc6tv2">42:25</string>
+    <string name="pc6tv3">58:44</string>
+    <string name="pc6tv4">53:20</string>
+    <string name="pc6tv5">49:09</string>
+    <string name="pc6tv6">39:39</string>
+    <string name="pc6tv7">44:32</string>
+    <string name="pc6tv8">59:43</string>
+    <string name="pc6tv9">59:10</string>
+    //7
+
+    <string name="pc7v1">Alternating Current( Generator)</string>
+    <string name="pc7v2">Alternating current measurement </string>
+    <string name="pc7v3"> A.C. Phase changes </string>
+    <string name="pc7v4">A.C. Circuit with pure resistance, inductor </string>
+    <string name="pc7v5">Circuit with Capacitance </string>
+    <string name="pc7v6">R. L. C. Series circuit  </string>
+    <string name="pc7v7">Resonance circuit</string>
+    <string name="pc7v8">Quality factor </string>
+    <string name="pc7v9">Power in A.C. circuit</string>
+    <string name="pc7v10">LC Oscillation</string>
+    <string name="pc7v11">Transformer part 1</string>
+    <string name="pc7v12">Transformer part-2</string>
+
+    <string name="pc7tv1">1:04:59</string>
+    <string name="pc7tv2">1:10:54</string>
+    <string name="pc7tv3">43:26</string>
+    <string name="pc7tv4">41:33</string>
+    <string name="pc7tv5">30:56</string>
+    <string name="pc7tv6">41:43</string>
+    <string name="pc7tv7">39:24</string>
+    <string name="pc7tv8">32:31</string>
+    <string name="pc7tv9">47:03</string>
+    <string name="pc7tv10">48:22</string>
+    <string name="pc7tv11">45:57</string>
+    <string name="pc7tv12">33:17</string>
+    //8
+    <string name="pc8v1">Displacement current, Maxwells Equation </string>
+    <string name="pc8v2"> E M Waves introduction</string>
+    <string name="pc8v3"> E M Waves characteristic </string>
+    <string name="pc8v4">Spectrum of E M waves</string>
+
+
+    <string name="pc8tv1">37:04</string>
+    <string name="pc8tv2">58:33</string>
+    <string name="pc8tv3">51:51</string>
+    <string name="pc8tv4">54:58</string>
+
+    //9
+
+    <string name="pc9v1">Reflection </string>
+    <string name="pc9v2">Reflection by mirror </string>
+    <string name="pc9v3"> Mirror Formula</string>
+    <string name="pc9v4"> Refraction introduction </string>
+    <string name="pc9v5">Refraction through slab</string>
+    <string name="pc9v6"> Refraction through prism</string>
+    <string name="pc9v7">Total internal reflection</string>
+    <string name="pc9v8"> Refraction at spherical surface</string>
+    <string name="pc9v9">Lens makers formula</string>
+    <string name="pc9v10">Lens and refraction </string>
+    <string name="pc9v11">Combination of lens </string>
+    <string name="pc9v12">Dispersion of light</string>
+    <string name="pc9v13">Rainbow </string>
+    <string name="pc9v14"> Accommodation by eyes </string>
+    <string name="pc9v15">Simple microscope </string>
+    <string name="pc9v16"> Compound microscope</string>
+    <string name="pc9v17">Telescope </string>
+
+    <string name="pc9tv1">45:59</string>
+    <string name="pc9tv2">52:15</string>
+    <string name="pc9tv3">45:32</string>
+    <string name="pc9tv4">38:42</string>
+    <string name="pc9tv5">1:04:20</string>
+    <string name="pc9tv6">48:51</string>
+    <string name="pc9tv7">57:38</string>
+    <string name="pc9tv8">1:11:35</string>
+    <string name="pc9tv9">53:03</string>
+    <string name="pc9tv10">1:08:55</string>
+    <string name="pc9tv11">30:50</string>
+    <string name="pc9tv12">49:36</string>
+    <string name="pc9tv13">26:47</string>
+    <string name="pc9tv14">22:25</string>
+    <string name="pc9tv15">35:28</string>
+    <string name="pc9tv16">23:07</string>
+    <string name="pc9tv17">54:57</string>
+    /10
+
+    <string name="pc10v1">Corpuscular theory </string>
+    <string name="pc10v2">Wave theories of light</string>
+    <string name="pc10v3">Construction and propagation of wavefronts</string>
+    <string name="pc10v4">Superposition of waves</string>
+    <string name="pc10v5">Mathematical analysis of superposition theorem </string>
+    <string name="pc10v6">Youngs double slit experiment </string>
+    <string name="pc10v7">Diffraction</string>
+    <string name="pc10v8">Polarisation of light </string>
+    <string name="pc10v9">Polarisation by reflation </string>
+    <string name="pc10v10"> Resolving an image,</string>
+    <string name="pc10v11">resolving power of microscope </string>
+    <string name="pc10v12">Fresners distance, Dopplers effect </string>
+    <string name="pc10v13">Biprism method to find wave length </string>
+    <string name="pc10v14">Wave optics Exercise </string>
+
+    <string name="pc10tv1">20:39</string>
+    <string name="pc10tv2">56:58</string>
+    <string name="pc10tv3">1:03:33</string>
+    <string name="pc10tv4">1:06:01</string>
+    <string name="pc10tv5">20:19</string>
+    <string name="pc10tv6">1:02:35</string>
+    <string name="pc10tv7">1:14:54</string>
+    <string name="pc10tv8">36:29</string>
+    <string name="pc10tv9">42:09</string>
+    <string name="pc10tv10">41:53</string>
+    <string name="pc10tv11">24:02</string>
+    <string name="pc10tv12">24:51</string>
+    <string name="pc10tv13">26:23</string>
+    <string name="pc10tv14">34:38</string>
+    //11
+    <string name="pc11v1"> Dual nature concept </string>
+    <string name="pc11v2"> Hallwach and Lenards experiment</string>
+    <string name="pc11v3">Dual nature : photons </string>
+    <string name="pc11v4">Dual Nature of matter</string>
+
+
+    <string name="pc11tv1">47:36</string>
+    <string name="pc11tv2">1:22:30</string>
+    <string name="pc11tv3">47:26</string>
+    <string name="pc11tv4">1:34:38</string>
+
+    //12
+
+    <string name="pc12v1">Atom part-1</string>
+    <string name="pc12v2"> Atom part-2</string>
+    <string name="pc12v3"> Atom part-3</string>
+
+    <string name="pc12tv1">1:20:11</string>
+    <string name="pc12tv2">1:18:00</string>
+    <string name="pc12tv3">57:10</string>
+    //13
+    <string name="pc13v1">Nucleus -1 </string>
+    <string name="pc13v2">Nuclear energy and mass defect</string>
+    <string name="pc13v3">Nuclear reactor </string>
+    <string name="pc13v4"> Nuclear reaction, Fusion</string>
+    <string name="pc13v5">Radioactivity</string>
+
+
+    <string name="pc13tv1">1:12:44</string>
+    <string name="pc13tv2">1:15:18</string>
+    <string name="pc13tv3">1:13:29</string>
+    <string name="pc13tv4">43:30</string>
+    <string name="pc13tv5">54:19</string>
+    //14
+
+    <string name="pc14v1">Semiconductor Intro</string>
+    <string name="pc14v2">energy levels</string>
+    <string name="pc14v3">Intrinsic and Extrinsic S.C.</string>
+    <string name="pc14v4">p and n type semiconductor,</string>
+    <string name="pc14v5">P-N Junction </string>
+    <string name="pc14v6">diode characteristics,</string>
+    <string name="pc14v7">Rectifier</string>
+    <string name="pc14v8">Zener diode</string>
+    <string name="pc14v9">Photo Diode</string>
+    <string name="pc14v10">LED</string>
+    <string name="pc14v11">Solar Cell</string>
+    <string name="pc14v12">Transistor-1</string>
+    <string name="pc14v13">Biprism method to find wave length </string>
+    <string name="pc14v14">Transistor current gain</string>
+    <string name="pc14v15">stages of transistor activities</string>
+    <string name="pc14v16">Transistor amplifier</string>
+
+    <string name="pc14tv1">56:13</string>
+    <string name="pc14tv2">16:29</string>
+    <string name="pc14tv3">56:50</string>
+    <string name="pc14tv4">52:53</string>
+    <string name="pc14tv5">21:55</string>
+    <string name="pc14tv6"> 54:44</string>
+    <string name="pc14tv7">40:10</string>
+    <string name="pc14tv8">36:25</string>
+    <string name="pc14tv9">24:27</string>
+    <string name="pc14tv10">34:59</string>
+    <string name="pc14tv11">19:42</string>
+    <string name="pc14tv12">40:11</string>
+    <string name="pc14tv13">26:23</string>
+    <string name="pc14tv14">49:30</string>
+    <string name="pc14tv15">29:49</string>
+    <string name="pc14tv16">40:53</string>
+    //15
+    <string name="pc15v1">Communication-1 </string>
+    <string name="pc15v2">Bandwidth </string>
+    <string name="pc15v3"> Propagation of waves</string>
+    <string name="pc15v4">Modulation of wave</string>
+    <string name="pc15v5">AM Waves Analysis</string>
+    <string name="pc15v6">Production and detection of waves</string>
+    <string name="pc15v7"> Internet, Mobile, GPS </string>
+
+    <string name="pc15tv1">1:28:00</string>
+    <string name="pc15tv2">52:29</string>
+    <string name="pc15tv3">1:30:18</string>
+    <string name="pc15tv4">56:51</string>
+    <string name="pc15tv5">31:46</string>
+    <string name="pc15tv6">45:12</string>
+    <string name="pc15tv7">56:31</string>
+
+    // chemistry video
+    //1
+    <string name="cc1v1">Types of Solid </string>
+    <string name="cc1v2"> Types of Solid  part 2 </string>
+    <string name="cc1v3"> Nearest Neighbour Distance </string>
+    <string name="cc1v4">Nearest Neighbour Distance part2</string>
+    <string name="cc1v5">Relationship between octahedral void and radius of atoms </string>
+    <string name="cc1v6">Defects in crystals </string>
+    <string name="cc1v7">Electrical properties of solids </string>
+
+    <string name="cc1tv1">32:07</string>
+    <string name="cc1tv2">33:46</string>
+    <string name="cc1tv3">32:52</string>
+    <string name="cc1tv4">36:47</string>
+    <string name="cc1tv5">25:59</string>
+    <string name="cc1tv6">31:07</string>
+    <string name="cc1tv7">35:56</string>
+
+    //2
+    <string name="cc2v1">Method of expressing concentration </string>
+    <string name="cc2v2">Types of solutions</string>
+    <string name="cc2v3">Raoults law</string>
+    <string name="cc2v4"> Colligative properties</string>
+    <string name="cc2v5">Elevation in boiling point</string>
+    <string name="cc2v6"> Osmosis and osmotic pressure</string>
+
+    <string name="cc2tv1">26:14</string>
+    <string name="cc2tv2">36:31</string>
+    <string name="cc2tv3">25:21</string>
+    <string name="cc2tv4">18:40</string>
+    <string name="cc2tv5">16:58</string>
+    <string name="cc2tv6">25:32</string>
+
+    //3
+    <string name="cc3v1"> Electrochemistry - Introduction</string>
+    <string name="cc3v2">Kohlrausch Law</string>
+    <string name="cc3v3">Electrochemical Cell</string>
+    <string name="cc3v4">Nernst Equation</string>
+    <string name="cc3v5">equilibrium constant and Gibbs free energy</string>
+    <string name="cc3v6">Electrolytic Cell</string>
+    <string name="cc3v7">batteries</string>
+    <string name="cc3v8">Corrosion</string>
+
+
+    <string name="cc3tv1">29:11</string>
+    <string name="cc3tv2">27:35</string>
+    <string name="cc3tv3">38:30</string>
+    <string name="cc3tv4">29:16</string>
+    <string name="cc3tv5">9:15</string>
+    <string name="cc3tv6">36:22</string>
+    <string name="cc3tv7">37:36</string>
+    <string name="cc3tv8">35:00</string>
+
+    //4
+    <string name="cc4v1">Chemical reaction </string>
+    <string name="cc4v2">Law of action </string>
+    <string name="cc4v3">Integrated rate law expression</string>
+    <string name="cc4v4"> Integrated rate law expression </string>
+    <string name="cc4v5">Pseudo chemical reaction</string>
+
+
+    <string name="cc4tv1">33:28</string>
+    <string name="cc4tv2">49:18</string>
+    <string name="cc4tv3">48:57</string>
+    <string name="cc4tv4">42:53</string>
+    <string name="cc4tv5">53:48</string>
+
+    //5
+
+    <string name="cc5v1">Surface chemistry</string>
+    <string name="cc5v2"> Catalysis</string>
+    <string name="cc5v3">Enzyme catalysis</string>
+    <string name="cc5v4"> Gas Law </string>
+    <string name="cc5v5"> Cleasing action </string>
+    <string name="cc5v6">Colloids </string>
+    <string name="cc5v7"> Coagulation of Colloids</string>
+
+    <string name="cc5tv1">40:47</string>
+    <string name="cc5tv2">48:31</string>
+    <string name="cc5tv3">35:18</string>
+    <string name="cc5tv4">39:27</string>
+    <string name="cc5tv5">34:47</string>
+    <string name="cc5tv6">44:53</string>
+    <string name="cc5tv7">34:46</string>
+    //6
+    <string name="cc6v1">General principles and isolation of elements </string>
+    <string name="cc6v2"> Roasting and calcination</string>
+    <string name="cc6v3"> Reduction or electronation of oxides</string>
+    <string name="cc6v4">Purification or Refining of metals</string>
+    <string name="cc6v5">Extraction of iron </string>
+    <string name="cc6v6"> Extraction of Copper</string>
+    <string name="cc6v7">Ellingham Diagrams</string>
+
+
+    <string name="cc6tv1">  41:28 </string>
+    <string name="cc6tv2">29:26</string>
+    <string name="cc6tv3">37:02</string>
+    <string name="cc6tv4">41:58</string>
+    <string name="cc6tv5">22:15</string>
+    <string name="cc6tv6">46:57</string>
+    <string name="cc6tv7">19:08</string>
+
+    //7
+    <string name="cc7v1">Periodic table</string>
+    <string name="cc7v2">Oxidation state of group 15 elements</string>
+    <string name="cc7v3">Reactivity towards halogens</string>
+    <string name="cc7v4">Oxides of nitrogen </string>
+    <string name="cc7v5">Nitric acid </string>
+    <string name="cc7v6">Phosphorus </string>
+    <string name="cc7v7">Group 16 elements</string>
+    <string name="cc7v8">Group 16 elements part 2</string>
+    <string name="cc7v9">Chemistry of sulphur and its compounds</string>
+    <string name="cc7v10">Sulphuric acid </string>
+    <string name="cc7v11"> Reactivity </string>
+    <string name="cc7v12">Oxacids of halogens</string>
+    <string name="cc7v13"> Noble gases</string>
+
+    <string name="cc7tv1">28:19</string>
+    <string name="cc7tv2">38:55</string>
+    <string name="cc7tv3">48:21</string>
+    <string name="cc7tv4">19:16</string>
+    <string name="cc7tv5">46:33</string>
+    <string name="cc7tv6">29:33</string>
+    <string name="cc7tv7">41:55</string>
+    <string name="cc7tv8">49:02</string>
+    <string name="cc7tv9">41:16</string>
+    <string name="cc7tv10">46:42</string>
+    <string name="cc7tv11">39:16</string>
+    <string name="cc7tv12">26:36</string>
+    <string name="cc7tv13">17:25</string>
+    /8
+    <string name="cc8v1">Introduction to D-F block element </string>
+    <string name="cc8v2"> Third transition series</string>
+    <string name="cc8v3"> Properties of D block element </string>
+    <string name="cc8v4">Standard electrode potential </string>
+    <string name="cc8v5">Features of potassium permanganate</string>
+    <string name="cc8v6">Inner transisition elements </string>
+
+
+    <string name="cc8tv1">20:14</string>
+    <string name="cc8tv2">39:34</string>
+    <string name="cc8tv3">53:59</string>
+    <string name="cc8tv4">43:41</string>
+    <string name="cc8tv5">34:12</string>
+    <string name="cc8tv6">19:49</string>
+
+    //9
+    <string name="cc9v1">Co-ordination compounds introduction</string>
+    <string name="cc9v2"> Nomenclature of co-ordinate compounds</string>
+    <string name="cc9v3"> Isomerism in co-ordinate compounds</string>
+    <string name="cc9v4">  Sample Question Paper 10</string>
+    <string name="cc9v5">  Sample Question Paper 10</string>
+    <string name="cc9v6">  Sample Question Paper 10</string>
+    <string name="cc9v7">  Sample Question Paper 10</string>
+
+
+    <string name="cc9tv1">51:24</string>
+    <string name="cc9tv2">45:38</string>
+    <string name="cc9tv3">20:39</string>
+    <string name="cc9tv4">17:48</string>
+    <string name="cc9tv5">23:37</string>
+    <string name="cc9tv6">33:13</string>
+    <string name="cc9tv7">41:12</string>
+
+    //10
+    <string name="cc10v1">Haloalkanes and haloarenes </string>
+    <string name="cc10v2">Methods of Preparation of haloalkanes </string>
+    <string name="cc10v3">Nucleophilic substitution reaction </string>
+    <string name="cc10v4">Physical properties of Haloalkanes and haloarenes </string>
+    <string name="cc10v5"> Elimination reaction</string>
+    <string name="cc10v6">Reactions with metals </string>
+
+
+    <string name="cc10tv1">44:31</string>
+    <string name="cc10tv2">37:51</string>
+    <string name="cc10tv3">44:41</string>
+    <string name="cc10tv4">34:49</string>
+    <string name="cc10tv5">55:10</string>
+    <string name="cc10tv6">32:21</string>
+
+    //11
+    <string name="cc11v1">Alcohols and phenols</string>
+    <string name="cc11v2">Prepare Alcohols,Phenols</string>
+    <string name="cc11v3"> Physical Chemical Properties of Alcohols </string>
+    <string name="cc11v4"> Reaction of Alkyl and hydroxyl group</string>
+    <string name="cc11v5">Special reaction of phenol</string>
+    <string name="cc11v6">Some commercially important alcohols</string>
+    <string name="cc11v7"> Properties of ethers </string>
+
+
+    <string name="cc11tv1">20:39</string>
+    <string name="cc11tv2">48:18</string>
+    <string name="cc11tv3">43:08</string>
+    <string name="cc11tv4">49:03</string>
+    <string name="cc11tv5">27:14</string>
+    <string name="cc11tv6">47:36</string>
+    <string name="cc11tv7">35:55</string>
+
+
+    //12
+    <string name="cc12v1">Aldehydes ketones</string>
+    <string name="cc12v2">Methodes of preparation of aldehydes and ketones</string>
+    <string name="cc12v3">Chemical properties of Aldehydes and ketones</string>
+    <string name="cc12v4">Chemical properties of aldehydes and ketones2</string>
+    <string name="cc12v5"> Oxidation of Aldehydes and ketones</string>
+    <string name="cc12v6"> Aldehyde and Ketones</string>
+    <string name="cc12v7">Carboxylic acid</string>
+    <string name="cc12v8">Chemical properties of carboxylic acid</string>
+    <string name="cc12v9">Reaction involving carboxylic group</string>
+
+    <string name="cc12tv1">51:06</string>
+    <string name="cc12tv2">36:05</string>
+    <string name="cc12tv3">37:32</string>
+    <string name="cc12tv4">  12:34</string>
+    <string name="cc12tv5">43:57</string>
+    <string name="cc12tv6">26:38</string>
+    <string name="cc12tv7">41:50</string>
+    <string name="cc12tv8">43:39</string>
+    <string name="cc12tv9">16:28</string>
+    //13
+    <string name="cc13v1">Hydrocarbon-1</string>
+    <string name="cc13v2">Hydrocarbon-2</string>
+    <string name="cc13v3">Hydrocarbon-3</string>
+    <string name="cc13v4"> Unsaturated hydrocarbons-3</string>
+    <string name="cc13v5"> Aromatic Hydrocarbons</string>
+    <string name="cc13v6">Influence on reactivity</string>
+
+    <string name="cc13tv1">1:00:14</string>
+    <string name="cc13tv2">59:25</string>
+    <string name="cc13tv3">36:53</string>
+    <string name="cc13tv4">29:26</string>
+    <string name="cc13tv5">39:25</string>
+    <string name="cc13tv6">21:54</string>
+
+
+    //14
+    <string name="cc14v1">Biochemistry intro</string>
+    <string name="cc14v2">Disaccharides </string>
+    <string name="cc14v3"> Proteins 1</string>
+    <string name="cc14v4">Proteins 2</string>
+    <string name="cc14v5">Nucleic acids</string>
+
+    <string name="cc14tv1">47:46</string>
+    <string name="cc14tv2">25:46</string>
+    <string name="cc14tv3">47:46</string>
+    <string name="cc14tv4">56:34</string>
+    <string name="cc14tv5">27:02</string>
+
+    //15
+    <string name="cc15v1"> Polymers</string>
+    <string name="cc15v2">Classification of polymers</string>
+    <string name="cc15v3"> Types of polymerization reaction</string>
+    <string name="cc15tv1">49:28</string>
+    <string name="cc15tv2">14:59</string>
+    <string name="cc15tv3">49:28</string>
+
+
+    // maths'
+
+    //1
+    <string name="mc1v1">Types of Relations</string>
+    <string name="mc1v2"> NCERT Exercise relations</string>
+    <string name="mc1v3">functions</string>
+    <string name="mc1v4">NCERT Exercise on functions</string>
+    <string name="mc1v5">Composition of function </string>
+    <string name="mc1v6">Exercise on composition of function</string>
+    <string name="mc1v7"> NCERT Exercise on binary operation</string>
+    <string name="mc1v8">Binary Operations</string>
+
+    <string name="mc1tv1">36:44</string>
+    <string name="mc1tv2">1:09:49</string>
+    <string name="mc1tv3">35:06</string>
+    <string name="mc1tv4">50:28</string>
+    <string name="mc1tv5">28:11</string>
+    <string name="mc1tv6">50:55</string>
+    <string name="mc1tv7">55:28</string>
+    <string name="mc1tv8">44:08</string>
+    //2
+    <string name="mc2v1">Inverse trigonometric functions</string>
+    <string name="mc2v2"> Inverse Trigonometric functions part 2 </string>
+    <string name="mc2v3">Inverse trigonometric function part-3 </string>
+    <string name="mc2v4"> Properties of Inverse trigonometric function </string>
+
+    <string name="mc2tv1">27:15</string>
+    <string name="mc2tv2">27:37</string>
+    <string name="mc2tv3">24:53</string>
+    <string name="mc2tv4">24:16</string>
+    //3
+    <string name="mc3v1"> Matrix Intro.</string>
+    <string name="mc3v2"> Types of matrix</string>
+    <string name="mc3v3">Algebra of matrix</string>
+    <string name="mc3v4"> Matrics multiplication</string>
+    <string name="mc3v5">Exercise on matrix</string>
+    <string name="mc3v6"> Transpose of matrix</string>
+    <string name="mc3v7">Elementary operation</string>
+
+    <string name="mc3tv1">13:47</string>
+    <string name="mc3tv2">29:37</string>
+    <string name="mc3tv3">30:31</string>
+    <string name="mc3tv4">32:41</string>
+    <string name="mc3tv5">25:50</string>
+    <string name="mc3tv6">56:12</string>
+    <string name="mc3tv7">44:31</string>
+    //4
+    <string name="mc4v1">Determinants</string>
+    <string name="mc4v2">Properties of determinant</string>
+    <string name="mc4v3">Exercise on determinant </string>
+    <string name="mc4v4"> Area of triangle using determinants </string>
+    <string name="mc4v5">Adjoint of Matrix</string>
+    <string name="mc4v6">Inverse of a matrix</string>
+    <string name="mc4v7"> Solutions of linear equations using determinants </string>
+
+    <string name="mc4tv1">34:08</string>
+    <string name="mc4tv2">25:49</string>
+    <string name="mc4tv3">31:27</string>
+    <string name="mc4tv4">15:33</string>
+    <string name="mc4tv5">24:56</string>
+    <string name="mc4tv6">47:47</string>
+    <string name="mc4tv7">25:50</string>
+    //5
+    <string name="mc5v1"> Continuity</string>
+    <string name="mc5v2">Exercise on Continuity</string>
+    <string name="mc5v3">Differentiation Intro.</string>
+    <string name="mc5v4">Differentiation of Xn</string>
+
+    <string name="mc5v5">Chain rule for differentiation</string>
+    <string name="mc5v6">Exercise of differentiation</string>
+    <string name="mc5v7">Differentiation of inverse trigonometric function</string>
+    <string name="mc5v8"> NCERT exercise</string>
+    <string name="mc5v9">Differentiation of exponential function</string>
+    <string name="mc5v10">Differentiation of logarithmic function</string>
+    <string name="mc5v11"> Exercise on differentiation of logarithmic function</string>
+    <string name="mc5v12"> Logarithmic differentiation</string>
+    <string name="mc5v13">Derivatives in parametric forms</string>
+    <string name="mc5v14">Second order derivative</string>
+    <string name="mc5v15">Rolles theorem</string>
+    <string name="mc5v16">Mean Value Theorem</string>
+
+    <string name="mc5tv1">30:33</string>
+    <string name="mc5tv2">46:46</string>
+    <string name="mc5tv3">40:00</string>
+
+    <string name="mc5tv4">12:02</string>
+    <string name="mc5tv5">12:53</string>
+    <string name="mc5tv6">27:56</string>
+    <string name="mc5tv7">21:02</string>
+    <string name="mc5tv8">25:59</string>
+    <string name="mc5tv9">28:25</string>
+    <string name="mc5tv10">24:45</string>
+    <string name="mc5tv11">21:53</string>
+    <string name="mc5tv12">53:28</string>
+    <string name="mc5tv13">46:01</string>
+    <string name="mc5tv14">43:29</string>
+    <string name="mc5tv15">14:17</string>
+    <string name="mc5tv16">21:24</string>
+    //6
+
+    <string name="mc6v1">Application of derivatives intro</string>
+    <string name="mc6v2"> NCERT exercise</string>
+    <string name="mc6v3">Increasing and Decreasing functions</string>
+    <string name="mc6v4">NCERT Exercise on increasing functions</string>
+    <string name="mc6v5"> Equation of Tangent and Normal</string>
+    <string name="mc6v6"> NCERT Exercise on Tangent</string>
+    <string name="mc6v7"> Approximation by derivation</string>
+    <string name="mc6v8">NCERT Exercise on Approximation</string>
+    <string name="mc6v9">Maxima and Minima</string>
+    <string name="mc6v10">First and second derivative test </string>
+    <string name="mc6v11"> Exercise on Maxima and Minima</string>
+    <string name="mc6v12">Exercise on maxima and minima-part 2</string>
+
+
+    <string name="mc6tv1">25:58</string>
+    <string name="mc6tv2">33:37</string>
+    <string name="mc6tv3">40:51</string>
+    <string name="mc6tv4">40:47</string>
+    <string name="mc6tv5">24:21</string>
+    <string name="mc6tv6">48:22</string>
+    <string name="mc6tv7">15:52</string>
+    <string name="mc6tv8">34:13</string>
+    <string name="mc6tv9">15:50</string>
+    <string name="mc6tv10">33:33</string>
+    <string name="mc6tv11">48:24</string>
+    <string name="mc6tv12">42:26</string>
+    //7
+
+
+    <string name="mc7v1">Integration intro</string>
+    <string name="mc7v2"> Exercise of integral,</string>
+    <string name="mc7v3">Integration by substitution</string>
+    <string name="mc7v4"> Exercise on substitution method</string>
+    <string name="mc7v5">Integration of trigonometric functions,</string>
+    <string name="mc7v6"> NCERT Exercise,</string>
+    <string name="mc7v7">Integration of particular function</string>
+    <string name="mc7v8"> NCERT Exercise</string>
+    <string name="mc7v9">Integration by parts</string>
+    <string name="mc7v10">NCERT Exercise</string>
+    <string name="mc7v11">NCERT Exercise</string>
+    <string name="mc7v12">Definite integration,</string>
+    <string name="mc7v13">NCERT Exercise </string>
+    <string name="mc7v14">NCERT Exercise</string>
+    <string name="mc7v15">Properties of Definite integration</string>
+    <string name="mc7v16">NCERT Exercise</string>
+
+
+    <string name="mc7tv1">42:13</string>
+    <string name="mc7tv2">30:54</string>
+    <string name="mc7tv3">38:41</string>
+    <string name="mc7tv4">1:02:10</string>
+    <string name="mc7tv5">45:33</string>
+    <string name="mc7tv6">50:01</string>
+    <string name="mc7tv7">29:11</string>
+    <string name="mc7tv8">51:19</string>
+    <string name="mc7tv9">30:37</string>
+    <string name="mc7tv10">37:37</string>
+    <string name="mc7tv11">26:25</string>
+    <string name="mc7tv12">39:51</string>
+    <string name="mc7tv13">52:48</string>
+    <string name="mc7tv14">51:24</string>
+    <string name="mc7tv15">29:35</string>
+    <string name="mc7tv16">53:59</string>
+    //8
+    <string name="mc8v1">Application of integrals,</string>
+    <string name="mc8v2"> NCERT Exercise</string>
+    <string name="mc8v3">Area between two curves,</string>
+
+    <string name="mc8tv1">27:27</string>
+    <string name="mc8tv2">1:06:23  </string>
+    <string name="mc8tv3">25:27</string>
+    //9
+    <string name="mc9v1">Differential Equation</string>
+    <string name="mc9v2">Solutions of differential equations,</string>
+    <string name="mc9v3">Solution of equation,</string>
+    <string name="mc9v4"> NCERT Exercise,</string>
+    <string name="mc9v5">NCERT Exercise-2,</string>
+    <string name="mc9v6">Homogeneous Diff. equation, </string>
+    <string name="mc9v7">NCERT Exercise</string>
+    <string name="mc9v8"> Linear diff. equation, </string>
+    <string name="mc9v9"> NCERT Exercise,</string>
+
+
+    <string name="mc9tv1">25:34</string>
+    <string name="mc9tv2">34:48</string>
+    <string name="mc9tv3">1:00:12</string>
+    <string name="mc9tv4">45:40</string>
+    <string name="mc9tv5">43:46</string>
+    <string name="mc9tv6">32:36</string>
+    <string name="mc9tv7">1:03:56</string>
+    <string name="mc9tv8">28:48</string>
+    <string name="mc9tv9">1:00:48</string>
+    //10
+    <string name="mc10v1">Vector Algebra,</string>
+    <string name="mc10v2"> Addition of two vectors,</string>
+    <string name="mc10v3">NCERT Exercise</string>
+    <string name="mc10v4"> Dot product of Vectors</string>
+    <string name="mc10v5">Exercise</string>
+    <string name="mc10v6"> Cross product of vectors</string>
+
+    <string name="mc10tv1">34:59</string>
+    <string name="mc10tv2">1:06:06</string>
+    <string name="mc10tv3">43:27</string>
+    <string name="mc10tv4">44:38</string>
+    <string name="mc10tv5">41:06</string>
+    <string name="mc10tv6">55:28</string>
+
+    //11
+    <string name="mc11v1">Three dimensional geometry,</string>
+    <string name="mc11v2"> Equations of line,</string>
+    <string name="mc11v3">NCERT Exercise</string>
+    <string name="mc11v4">NCERT Exercise 2</string>
+    <string name="mc11v5">NCERT Exercise 3</string>
+
+    <string name="mc11tv1">38:08</string>
+    <string name="mc11tv2">1:18:24</string>
+    <string name="mc11tv3">51:04</string>
+    <string name="mc11tv4">40:30</string>
+    <string name="mc11tv5">48:05</string>
+    //12
+    <string name="mc12v1"> Linear programming </string>
+    <string name="mc12v2"> NCERT Exercise</string>
+    <string name="mc12v3"> Problem on linear programming,</string>
+    <string name="mc12v4">NCERT Exercise,</string>
+    <string name="mc12v5"> NCERT Exercise-2</string>
+
+
+    <string name="mc12tv1">43:52</string>
+    <string name="mc12tv2">48:55</string>
+    <string name="mc12tv3">36:21</string>
+    <string name="mc12tv4">40:29</string>
+    <string name="mc12tv5">50:29</string>
+    //13
+
+
+    <string name="mc13v1">Conditional probability, </string>
+    <string name="mc13v2">NCERT Exercise,</string>
+    <string name="mc13v3">Independent event,</string>
+    <string name="mc13v4">NCERT Exercise,</string>
+    <string name="mc13v5">Bayes Theorem</string>
+    <string name="mc13v6">NCERT Exercise</string>
+    <string name="mc13v7">Elementary operation</string>
+    <string name="mc13v8">NCERT Exercise</string>
+    <string name="mc13v9"> Bernoulli trials,</string>
+    <string name="mc13v10">NCERT Exercise</string>
+
+
+    <string name="mc13tv1">35:15</string>
+    <string name="mc13tv2">1:02:01</string>
+    <string name="mc13tv3">27:27</string>
+    <string name="mc13tv4">46:24</string>
+    <string name="mc13tv5">21:29</string>
+    <string name="mc13tv6">31:14</string>
+    <string name="mc13tv7">44:30</string>
+    <string name="mc13tv8">1:08:37</string>
+    <string name="mc13tv9">32:12</string>
+    <string name="mc13tv10">55:26</string>
+
+    <string name="exa1"> Exampler problem</string>
+    <string name="exa2">Problem Solution</string>
+
+    <string name="q1">Engaging Video Lessons</string>
+    <string name="q2">Simple and effective video covering all concept</string>
+    <string name="q3">Competitive exam</string>
+    <string name="q4"> Sample paper for JeeMain,JeeAdavance, NSTSE and KVPY</string>
+    <string name="q5">Chapter wise</string>
+    <string name="q6">Notes Books ncertSolution  ExamplerSolution Very importantQuestions and Last10 Year Sample paper</string>
+
+   <string name="actio_settings">Report Issue</string>
+    <string name="actio">Reset app</string>
+    <string name="acti">Home</string>
+    <string name="actin_settings">About us</string>
+    <string name="text2">On using this app if you find any type of issue you can
+    Report on that email this will help us to improve our app Abhishek pandey
+    </string>
+    <string name="text"> classroom lecture videos explaining in detail,
+       Chapterwise Notes,Books,Important Question,NCERT exercise Solution,NCERT Exampler Solution,
+        and Last 10Year Solved and Unsolved Sample Paper
+    Language English and Hindi mixed. Suitable for students having Hindi mother tongue but studying in English medium school.
+    and SamplePaper for Comptetive Exams NESTE,KVPY,JEE MAINS and JEE ADVANCE</string>
+</resources>
